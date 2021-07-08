@@ -1,0 +1,64 @@
+##########################################################################
+#################### ALU Verification (UVM) ##############################
+##########################################################################
+
+
+
+Holistic Overview:
+
+We will start our Verification process by creating a conventional testbench and modify it in 3 stages until it is an industry standard UVM Compliant testbench.
+
+
+Monolithic Testbench (No Hierarchy)
+
+
+DEVICE UNDER TEST:
+
+We will build our foundation in UVM by verifying a simple ALU Design that accepts two 8 bit numbers (A & B) outputs a 16 bit result. 
+
+$$ Add in the image + operation information
+
+This simple design will allow us to focus our energy on the testbench without getting distracted by DUT Complexity.
+
+
+
+
+Verification teams need to run thousands of tests on a design without recompiling their testbench for each test. 
+
+Let's say a team is running 1000 tests, 5 minutes per test to compile the testbench, that's 5000 minutes!
+
+(AKA, 3.5 days! Almost half a week compiling the design! Definitely not cost effective for a company!)
+
+UVM Allows us to implement a dynamically configurable testbench.
+
+
+
+
+
+(2 parts)
+
+OOP Stuff (concepts etc)
+
+
+Communication stuff (concepts etc)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
